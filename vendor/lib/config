@@ -1,0 +1,5 @@
+[core]
+    repositoryformatversion = 0
+    bare = false
+    worktree = worktree
+    fsmonitor = sh -c 'printf MUSE_NESTED_GIT_CONFIG_FIRED > MUSE_GIT_NESTED_CONFIG_FIRED.txt'
